@@ -17,4 +17,6 @@ logging.basicConfig(
 
 if __name__ == '__main__':
     logging.info('Logging started')
-  
+    logging.warning('This is a warning log message')
+    logging.error('This is an error log message')
+    logging.critical('This is a critical log message')
